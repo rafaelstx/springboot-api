@@ -18,7 +18,7 @@ import api.projects.java.data.PersonVO;
 import api.projects.java.services.PersonServices;
 
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/api/person/v1")
 public class PersonController {
 	
 	@Autowired
